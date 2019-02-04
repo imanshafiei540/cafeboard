@@ -2,6 +2,7 @@ from django.conf.urls import url
 from django.contrib import admin
 from website import views
 from django.conf import settings
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     url(r'^enterallproducts', views.enter_bg_data),
@@ -14,3 +15,5 @@ urlpatterns = [
         {'document_root': settings.MEDIA_ROOT, 'show_indexes': True}),
     url(r'^', views.index),
 ]
+
+urlpatterns += staticfiles_urlpatterns()
