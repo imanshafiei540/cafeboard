@@ -139,7 +139,7 @@
             <small>کافه تخصصی بردگیم و بازی‌های دورهمی</small>
         </a>
 
-        <a class="address-menu"
+        <a target="_blank" class="address-menu"
            href="https://www.google.com/maps/place/Cafe+Board/@35.7242598,51.4331861,19z/data=!3m1!4b1!4m5!3m4!1s0x3f8e01602a64b2c5:0x2ce42b7bad2227c1!8m2!3d35.7242598!4d51.4337333"><span
                 style="font-size: 13px;margin-left: 5px;vertical-align: middle">آدرس</span><i
                 class="fas fa-map-marker-alt"></i></a>
@@ -157,10 +157,10 @@
                        role="tab"
                        aria-controls="nav-about" aria-selected="false">درباره کافه</a>
                 </li>
-                <li class="nav-item nav-fill">
+                {% comment %}<li class="nav-item nav-fill">
                     <a class=" nav-link" id="nav-club-tab" data-toggle="tab" href="#nav-club" role="tab"
                        aria-controls="nav-club" aria-selected="true">باشگاه</a>
-                </li>
+                </li>{% endcomment %}
                 <li class="nav-item nav-fill">
                     <a class="nav-item nav-link" id="nav-event-tab" data-toggle="tab" href="#nav-event" role="tab"
                        aria-controls="nav-event" aria-selected="false">رویداد‌ها</a>
@@ -181,7 +181,7 @@
             <h2 class="tab-title">
                 کافه بُرد چیه؟
             </h2>
-            <img class="tab-content-img img-fluid" alt="" src="img/about-img-1.jpg">
+            {% comment %}<img class="tab-content-img img-fluid" alt="" src="img/about-img-1.jpg">{% endcomment %}
             <div class="about-text"><p><span style="font-weight: 400;">بچه‌تر که بودیم بعضی اوقات خانواده‌ تحویلمون می‌گرفتن و باهامون بازی می‌کردن. احتمالا باید یادتون باشه؛ روپولی (یا همون مونوپولی)، عمو پولدار، راز جنگل، فکر بکر، فتح پرچم، منچ و مار پله. تو کودکی همه ما ازین بازی‌ها هست اما از یک جایی به بعد این بازی‌ها که همه رو می‌نشوند دور هم از خاطرات ما حذف شدن. اون موقع‌ها بهشون می‌گفتیم بازی فکری ولی الان یاد گرفتیم بهشون بگیم بردگیم. شاید اسم‌ها و قیافه‌هاشون خیلی خارجی شده باشه، ولی بردگیم‌های امروزی همون کاری رو می‌کنن که بازی‌فکری‌های اون موقع انجام می‌دادن؛ آدم‌ها رو می‌شونن دور هم.</span>
             </p>
                 <p><span style="font-weight: 400;">کافه بُرد، به عنوان اولین بردگیم کافه تهران – دومین بردگیم کافه ایران بعد از کافه کندو شیراز – از سال ۹۴ شروع به کار کرد و همچنان هم داره می‌تازونه. اینجا یک کافه است، عین خیلی از کافه‌های دیگه‌ای که دیدین و رفتین، فقط بجای اینکه تو تاریکی بشینین و صدای قهوه هورت‌کشیدن همدیگه رو تحمل کنین، تو یه فضای روشن و پر از سر و صدا بازی می‌کنین. هم می‌تونین بیاین اینجا خوراکی‌ و نوشیدنی‌های خوشمزه بخورین، هم چند ساعتی با دوستاتون رقابت کنین. اگه حالش رو داشته باشین با بعضی از بازی‌ها می‌تونین مغزتون رو آب کنین. اگر هم بعد از چندین ساعت دنبال یه لقمه نون حلال دویدن، حوصله ندارین و می‌خواین یکم بخندین، اینجا بازی‌هایی داریم که بهونه‌های خوبی برای خوش‌گذروندن هستن.</span>
@@ -216,11 +216,11 @@
                 تلفن: ۹۲۴ ۶۷ ۸۸۸ ۰۲۱
             </p>
         </div>
-        <div class="tab-pane fade" id="nav-club" role="tabpanel" aria-labelledby="nav-club-tab">
-            {% comment %}<nav class="navbar navbar-user">
+        {% comment %}<div class="tab-pane fade" id="nav-club" role="tabpanel" aria-labelledby="nav-club-tab">
+            <nav class="navbar navbar-user">
                 <a class="navbar-brand" href="#">امیر خان سلام؛</a>
                 <a class="icon" href=""><i class="fas fa-cogs"></i></a>
-            </nav>{% endcomment %}
+            </nav>
 
             <h2 class="tab-title">
                 ورود به باشگاه ( به زودی فعال خواهد شد )
@@ -257,7 +257,7 @@
                 <p><span style="font-weight: 400;">با کشک فرض کردن همه این حرف‌ها، باشگاه کافه برد یک سیستم مکانیزه برای ارائه تخفیف، آزاد کردن بَج‌ و پیشرفت‌کردن در دنیای کافه برده. به زبان ساده، شما در دفعات مختلفی که مهمون کافه ما هستین، از خوراکی‌ها و بازی‌های مختلفی استفاده می‌کنین که همه این‌ها در پروفایل شما ثبت و برای آزاد کردن بَج‌ها محاسبه می‌شه. برای مثال شما برای آزاد کردن بَج «پاندا یک» باید دو عدد شربت زعفرون، یک برگر بادمجان و یک قهوه کمکس تک کاپ میل کنین وهر کدام از بازی‌‌های Codenames: Pictures و استوژیت رو دو بار بازی کنین. اینجوری هم بَج «پاندا یک» رو بدست میارین، هم یک مبلغی تخفیف می‌گیرین که در کارت عضویت شما ذخیره می‌شه. حالا اگه خیلی قوی عمل کنین و همه بَج‌های مرحله یک رو آزاد کنین، به مدت یک سال تخفیف ۲۵٪ هزینه بازی‌ها رو خواهید داشت.</span>
                 </p>
             </div>
-        </div>
+        </div>{% endcomment %}
         <div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">
             <h2 class="tab-title">
                 رویداد‌های در حال اجرا
@@ -265,7 +265,7 @@
 
             <div style="border: none;" class="event-item card text-white">
                 {% for event in events %}
-                    <img style="border: 1px solid rgba(0,0,0,.125);" class="card-img" src="static/img/event-bg-img.jpg"
+                    <img style="border: 1px solid rgba(0,0,0,.125);" class="card-img" src="public{{ event.event.image.url }}"
                          alt="Card image">
                     <div class="card-img-overlay">
                         <h5 class="card-title">{{ event.event.title }}</h5>

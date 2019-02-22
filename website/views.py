@@ -19,7 +19,9 @@ def index(request):
         jalali_date = jdatetime.date.fromgregorian(date=event.datetime.date())
         name_day = jalali_date.strftime("%a")
         month_name = jalali_date.strftime("%b")
-        events_list.append({"date": {"day": name_day, "month_name": month_name, "jalali": jalali_date}, "event": event})
+        events_list.append(
+            {"date": {"day": name_day, "month_name": month_name, "jalali": jalali_date, "image": event.image.url},
+             "event": event})
 
     return render(request, 'index.html', {'boardgames_count': counts, "events": events_list})
 
