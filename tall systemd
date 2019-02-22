@@ -1,0 +1,11 @@
+[0;1;31m●[0m gunicorn.service - gunicorn daemon
+   Loaded: loaded (/etc/systemd/system/gunicorn.service; enabled; vendor preset: enabled)
+   Active: [0;1;31mfailed[0m (Result: exit-code) since Tue 2019-02-05 19:33:58 UTC; 12s ago
+  Process: 13591 ExecStart=/home/ubuntu/cafeboard/cafeboard/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ubuntu/cafeboard/cafeboard.sock cafeboard.wsgi:application [0;1;31m(code=exited, status=217/USER)[0m
+ Main PID: 13591 (code=exited, status=217/USER)
+
+Feb 05 19:33:58 cafeboard systemd[1]: Started gunicorn daemon.
+Feb 05 19:33:58 cafeboard systemd[13591]: [0;1;31mgunicorn.service: Failed at step USER spawning /home/ubuntu/cafeboard/cafeboard/bin/gunicorn: No such process[0m
+Feb 05 19:33:58 cafeboard systemd[1]: [0;1;39mgunicorn.service: Main process exited, code=exited, status=217/USER[0m
+Feb 05 19:33:58 cafeboard systemd[1]: [0;1;39mgunicorn.service: Unit entered failed state.[0m
+Feb 05 19:33:58 cafeboard systemd[1]: [0;1;39mgunicorn.service: Failed with result 'exit-code'.[0m
