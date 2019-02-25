@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b38ad31e-56d9-4bc3-9694-53ab55434d09" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/Gobi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/K2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/MonsterTrick.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/Mr.JackPocket.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/SkullKing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/SpecterOps.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/Stronghold(2ndedition).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/Tash-Kalar:ArenaofLegends.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/TheFoxintheForest.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/TheGrizzled.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/TheGrizzled:AtYourOrders!.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/TheNetworks.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/Tribe.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/Bios:Megafauna(SecondEdition).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/DiceForge.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/Joraku.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/Kemet.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/Manila.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/media/Mythe.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -55,8 +48,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="181" column="17" lean-forward="true" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
+            <state relative-caret-position="158">
+              <caret line="186" column="18" lean-forward="false" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
               <folding>
                 <element signature="e#24#59#0" expanded="true" />
                 <element signature="e#2342#2794#0" expanded="false" />
@@ -363,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550854677954</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Boardgames add.">
+      <created>1551093902497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551093902497</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -405,7 +405,8 @@
     <MESSAGE value="static root add." />
     <MESSAGE value="gunicorn static files url add." />
     <MESSAGE value="Bug fixes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes." />
+    <MESSAGE value="Boardgames add." />
+    <option name="LAST_COMMIT_MESSAGE" value="Boardgames add." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -922,8 +923,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="181" column="17" lean-forward="true" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
+        <state relative-caret-position="158">
+          <caret line="186" column="18" lean-forward="false" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
           <folding>
             <element signature="e#24#59#0" expanded="true" />
             <element signature="e#2342#2794#0" expanded="false" />
