@@ -267,7 +267,7 @@
                 {% for event in events %}
                     <img style="border: 1px solid rgba(0,0,0,.125);" class="card-img" src="public{{ event.event.image.url }}"
                          alt="Card image">
-                    <div class="card-img-overlay">
+                    <div style="z-index: -1000;" class="card-img-overlay">
                         <h5 class="card-title">{{ event.event.title }}</h5>
                         <p style="font-family: IRANSansNUMS" class="card-text event-date event-available"><i
                                 class="material-icons">date_range</i>{{ event.date.day }}؛ {{ event.date.jalali.day }}
