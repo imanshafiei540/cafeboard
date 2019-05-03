@@ -8,6 +8,9 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
+    def __unicode__(self):
+        return u"%s" % self.name
+
 
 class Boardgame(models.Model):
     name = models.CharField(max_length=255, null=False)
@@ -25,6 +28,9 @@ class Boardgame(models.Model):
     def __str__(self):
         return self.name
 
+    def __unicode__(self):
+        return u"%s" % self.name
+
 
 class Tag(models.Model):
     name = models.CharField(max_length=255, null=False)
@@ -32,6 +38,9 @@ class Tag(models.Model):
 
     def __str__(self):
         return self.name + " == " + self.boardgame.name
+
+    def __unicode__(self):
+        return u"%s" % self.name
 
 
 class Event(models.Model):
