@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.db import models
-
+from django.contrib import admin
 
 class Category(models.Model):
     name = models.CharField(max_length=255, null=False)
@@ -30,6 +30,10 @@ class Boardgame(models.Model):
 
     def __unicode__(self):
         return u"%s" % self.name
+
+
+class BoardgameAdmin(admin.ModelAdmin):
+    search_fields = ('name',)
 
 
 class Tag(models.Model):

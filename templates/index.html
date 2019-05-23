@@ -188,6 +188,18 @@
         .card.ng-enter-active {
             opacity: 1;
         }
+
+        .table-top-title {
+            font-size: 14px;
+            text-align: center;
+            color: #a5b653;
+        }
+
+        .table-top-card {
+            border: 1px solid lightgray;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
     </style>
 
 </head>
@@ -226,7 +238,7 @@
                 </li>{% endcomment %}
                 <li class="nav-item nav-fill">
                     <a class="nav-item nav-link" id="nav-event-tab" data-toggle="tab" href="#nav-event" role="tab"
-                       aria-controls="nav-event" aria-selected="false">رویداد‌ ربات</a>
+                       aria-controls="nav-event" aria-selected="false">روز جهانی بازی‌های رومیزی</a>
                 </li>
                 <li class="nav-item nav-fill">
                     <a class="nav-item nav-link" id="nav-games-tab" data-toggle="tab" href="#nav-games" role="tab"
@@ -321,7 +333,7 @@
                 </p>
             </div>
         </div>{% endcomment %}
-        <div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">
+        {% comment %}<div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">
             <h2 class="tab-title">
                 چرا ربات؟
             </h2>
@@ -363,7 +375,7 @@
                                 class="material-icons">date_range</i>{{ event.date.day }}؛ {{ event.date.jalali.day }}
                             {{ event.date.month_name }} ۹۶</p>
                         <p class="card-text">{{ event.event.description }}</p>
-                        {% comment %}<a href="#" class="card-link"><i class="material-icons">arrow_back</i>ثبت نام</a>{% endcomment %}
+                        <a href="#" class="card-link"><i class="material-icons">arrow_back</i>ثبت نام</a>
                     </div>
                     <div style="margin-top: -60px;">
                         {{ event.event.evand_frame | safe }}
@@ -371,7 +383,7 @@
                 {% endfor %}
             </div>
 
-            {% comment %} <h2 class="tab-title">
+             <h2 class="tab-title">
                 رویداد‌های گذشته
             </h2>
             <div class="event-item card text-white">
@@ -392,7 +404,33 @@
                     <p class="card-text">رویدادی که میان بازی‌هاشون رو برای پلی‌تست کردن در اختیار علاقه‌مندان دیگه
                         می‌ذارن.</p>
                 </div>
-            </div>{% endcomment %}
+            </div>
+        </div>{% endcomment %}
+        <div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">
+            <h2 class="tab-title">
+                روز جهانی بازی‌های رومیزی چیه؟
+            </h2>
+            <div class="about-text"><p><span style="font-weight: 400;">
+                روز جهانی بازی‌های رومیزی هر ساله در ماه آوریل در سرتاسر دنیا برگزار می‌شه. در این روز مراکز بازی در کشورهای مختلف، پر میشن از بازی‌هایی که شرکت کنندگان می‌تونن اونها رو به رایگان بازی کنند. این رویداد در کل دنیا - شامل ۸۰ کشور در ۷ قاره - هرساله با شکل و شمایلی هماهنگ برگزار می‌شه. اطلاعات بیشتر در مورد این رویداد رو می‌تونین اینجا بخونید. امسال هم مثل دو سال گذشته، ایران هم جزو برگزارکنندگان این رویداد هست. شما هم اگه حوصلتون سر رفته و دلتون بازی می‌خاد، اونهم بازی مجانی، اونهم یک روز کامل، به ما بپیوندین که قراره خیلی خوش بگذره!
+            </span>
+            </p>
+            </div>
+            <h2 class="tab-title">
+                بازی‌های روز جهانی در کافه برد
+            </h2>
+            <div class="row">
+                {% for tabletop_bg in tabletop_games %}
+                    <div class="col-md-4">
+                        <div class="table-top-card">
+                            <img class="card-img-top" src="public{{ tabletop_bg.image }}/" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="table-top-title">{{ tabletop_bg.name }}</h5>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+
         </div>
         <div class="tab-pane fade" id="nav-games" role="tabpanel" aria-labelledby="nav-games-tab">
 
@@ -640,8 +678,8 @@
             $('#burger-menu').trigger('focus')
         });
         if (window.location.pathname === '/events') {
-        $('#nav-event-tab').trigger('click');
-    }
+            $('#nav-event-tab').trigger('click');
+        }
     });
 </script>
 {% comment %}<script>

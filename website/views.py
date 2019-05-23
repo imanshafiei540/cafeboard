@@ -9,6 +9,31 @@ from xlrd import open_workbook
 import jdatetime, locale
 
 
+def get_tabletop_games():
+    boardgames_name = [
+        'Camel Up',
+        'Dice Forge',
+        'Vikings on Board',
+        'Pandemic: The Cure',
+        'دژ',
+        'Spring Meadow',
+        'Azul',
+        'Sagrada',
+        'Santorini',
+        'Imhotep'
+    ]
+
+    boardgames_data = []
+
+    for bg in boardgames_name:
+        bg_obj = Boardgame.objects.get(name=bg)
+        boardgames_data.append({
+            'name': bg_obj.name,
+            'image': bg_obj.image.url
+        })
+    return boardgames_data
+
+
 def index(request):
     jdatetime.set_locale('fa_IR')
     boardgames = Boardgame.objects.all()
@@ -23,7 +48,8 @@ def index(request):
             {"date": {"day": name_day, "month_name": month_name, "jalali": jalali_date, "image": event.image.url},
              "event": event})
 
-    return render(request, 'index.html', {'boardgames_count': counts, "events": events_list})
+    return render(request, 'index.html',
+                  {'boardgames_count': counts, "events": events_list, "tabletop_games": get_tabletop_games()})
 
 
 def getproducts(request):
