@@ -3,6 +3,10 @@
     font-family: IRANSansNUMS;
     src: url('../fonts/IRANSansMonoSpacedNum_Medium.ttf');
 }
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/IRANSansWeb.ttf');
+}
 
 body {
     background-color: #fff;
