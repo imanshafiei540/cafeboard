@@ -15,7 +15,7 @@ def get_tabletop_games():
         'Dice Forge',
         'Vikings on Board',
         'Pandemic: The Cure',
-        'دژ',
+        'Sushi Go Party!',
         'Spring Meadow',
         'Azul',
         'Sagrada',
