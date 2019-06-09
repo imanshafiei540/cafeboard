@@ -245,7 +245,7 @@
                 </li>{% endcomment %}
                 <li class="nav-item nav-fill">
                     <a class="nav-item nav-link" id="nav-event-tab" data-toggle="tab" href="#nav-event" role="tab"
-                       aria-controls="nav-event" aria-selected="false">روز جهانی بازی‌های رومیزی</a>
+                       aria-controls="nav-event" aria-selected="false">رویداد ربات</a>
                 </li>
                 <li class="nav-item nav-fill">
                     <a class="nav-item nav-link" id="nav-games-tab" data-toggle="tab" href="#nav-games" role="tab"
@@ -340,7 +340,7 @@
                 </p>
             </div>
         </div>{% endcomment %}
-        {% comment %}<div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">
+        <div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">
             <h2 class="tab-title">
                 چرا ربات؟
             </h2>
@@ -390,7 +390,7 @@
                 {% endfor %}
             </div>
 
-             <h2 class="tab-title">
+             {% comment %}<h2 class="tab-title">
                 رویداد‌های گذشته
             </h2>
             <div class="event-item card text-white">
@@ -411,9 +411,9 @@
                     <p class="card-text">رویدادی که میان بازی‌هاشون رو برای پلی‌تست کردن در اختیار علاقه‌مندان دیگه
                         می‌ذارن.</p>
                 </div>
-            </div>
-        </div>{% endcomment %}
-        <div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">
+            </div>{% endcomment %}
+        </div>
+        {% comment %}<div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">
             <h2 class="tab-title">
                 روز جهانی بازی‌های رومیزی چیه؟
             </h2>
@@ -450,7 +450,7 @@
                 {% endfor %}
             </div>
 
-        </div>
+        </div>{% endcomment %}
         <div class="tab-pane fade" id="nav-games" role="tabpanel" aria-labelledby="nav-games-tab">
 
 
