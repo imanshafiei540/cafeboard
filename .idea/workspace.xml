@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b38ad31e-56d9-4bc3-9694-53ab55434d09" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
@@ -31,7 +30,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cafeboard/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="90">
               <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -43,7 +42,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="255">
               <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="e#24#59#0" expanded="true" />
@@ -56,40 +55,31 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="389" column="28" lean-forward="true" selection-start-line="389" selection-start-column="28" selection-end-line="389" selection-end-column="28" />
+            <state relative-caret-position="358">
+              <caret line="355" column="174" lean-forward="true" selection-start-line="355" selection-start-column="174" selection-end-line="355" selection-end-column="174" />
               <folding>
                 <element signature="e#12159#15097#0#DjangoTemplate" expanded="false" />
-                <element signature="e#20626#23056#0#DjangoTemplate" expanded="false" />
-                <marker date="1560099816091" expanded="false" signature="12671:12691" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="12961:12981" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="13205:13225" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="13479:13499" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="13811:13828" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="14240:14246" ph=" " />
-                <marker date="1560099816091" expanded="false" signature="14283:14300" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="15328:15345" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="16158:16175" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="16821:16838" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="18174:18180" ph=" " />
-                <marker date="1560099816091" expanded="false" signature="18229:18242" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="18354:18389" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="18548:18563" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="18701:18726" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="19202:19220" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="19511:20020" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="20074:20585" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="20882:20899" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="20915:20932" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="21052:21069" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="21154:21171" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="21338:21355" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="21505:21522" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="21619:21636" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="21802:21819" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="21923:21937" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="22215:22253" ph="..." />
-                <marker date="1560099816091" expanded="false" signature="22816:22830" ph="..." />
+                <element signature="e#20635#23065#0#DjangoTemplate" expanded="false" />
+                <marker date="1560247206957" expanded="false" signature="12671:12691" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="12961:12981" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="13205:13225" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="13479:13499" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="13811:13828" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="14240:14246" ph=" " />
+                <marker date="1560247206957" expanded="false" signature="14283:14300" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="19520:20029" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="20083:20594" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="20891:20908" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="20924:20941" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="21061:21078" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="21163:21180" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="21347:21364" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="21514:21531" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="21628:21645" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="21811:21828" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="21932:21946" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="22224:22262" ph="..." />
+                <marker date="1560247206957" expanded="false" signature="22825:22839" ph="..." />
               </folding>
             </state>
           </provider>
@@ -128,7 +118,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="495">
               <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#24#52#0" expanded="true" />
@@ -207,7 +197,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="822" />
@@ -233,6 +223,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,7 +282,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -552,21 +542,28 @@
       <option name="project" value="LOCAL" />
       <updated>1559669330407</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="robot tab add.">
+      <created>1560099847755</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1560099847755</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41265476" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32043532" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32043532" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3741403" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20529328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2081545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -609,7 +606,8 @@
     <MESSAGE value="Table to day add." />
     <MESSAGE value="Table to day improve." />
     <MESSAGE value="Tabletop game change." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tabletop game change." />
+    <MESSAGE value="robot tab add." />
+    <option name="LAST_COMMIT_MESSAGE" value="robot tab add." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -641,36 +639,27 @@
           <caret line="155" column="47" lean-forward="false" selection-start-line="155" selection-start-column="47" selection-end-line="155" selection-end-column="47" />
           <folding>
             <element signature="e#12159#15097#0#DjangoTemplate" expanded="false" />
-            <element signature="e#20626#23056#0#DjangoTemplate" expanded="false" />
-            <marker date="1560099816091" expanded="false" signature="12671:12691" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="12961:12981" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13205:13225" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13479:13499" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13811:13828" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="14240:14246" ph=" " />
-            <marker date="1560099816091" expanded="false" signature="14283:14300" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="15328:15345" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="16158:16175" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="16821:16838" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18174:18180" ph=" " />
-            <marker date="1560099816091" expanded="false" signature="18229:18242" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18354:18389" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18548:18563" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18701:18726" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="19202:19220" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="19511:20020" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20074:20585" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20882:20899" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20915:20932" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21052:21069" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21154:21171" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21338:21355" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21505:21522" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21619:21636" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21802:21819" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21923:21937" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="22215:22253" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="22816:22830" ph="..." />
+            <element signature="e#20635#23065#0#DjangoTemplate" expanded="false" />
+            <marker date="1560247206957" expanded="false" signature="12671:12691" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="12961:12981" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13205:13225" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13479:13499" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13811:13828" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="14240:14246" ph=" " />
+            <marker date="1560247206957" expanded="false" signature="14283:14300" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="19520:20029" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20083:20594" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20891:20908" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20924:20941" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21061:21078" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21163:21180" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21347:21364" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21514:21531" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21628:21645" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21811:21828" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21932:21946" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="22224:22262" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="22825:22839" ph="..." />
           </folding>
         </state>
       </provider>
@@ -737,36 +726,27 @@
           <caret line="126" column="9" lean-forward="false" selection-start-line="126" selection-start-column="9" selection-end-line="126" selection-end-column="9" />
           <folding>
             <element signature="e#12159#15097#0#DjangoTemplate" expanded="false" />
-            <element signature="e#20626#23056#0#DjangoTemplate" expanded="false" />
-            <marker date="1560099816091" expanded="false" signature="12671:12691" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="12961:12981" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13205:13225" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13479:13499" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13811:13828" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="14240:14246" ph=" " />
-            <marker date="1560099816091" expanded="false" signature="14283:14300" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="15328:15345" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="16158:16175" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="16821:16838" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18174:18180" ph=" " />
-            <marker date="1560099816091" expanded="false" signature="18229:18242" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18354:18389" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18548:18563" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18701:18726" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="19202:19220" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="19511:20020" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20074:20585" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20882:20899" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20915:20932" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21052:21069" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21154:21171" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21338:21355" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21505:21522" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21619:21636" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21802:21819" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21923:21937" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="22215:22253" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="22816:22830" ph="..." />
+            <element signature="e#20635#23065#0#DjangoTemplate" expanded="false" />
+            <marker date="1560247206957" expanded="false" signature="12671:12691" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="12961:12981" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13205:13225" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13479:13499" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13811:13828" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="14240:14246" ph=" " />
+            <marker date="1560247206957" expanded="false" signature="14283:14300" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="19520:20029" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20083:20594" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20891:20908" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20924:20941" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21061:21078" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21163:21180" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21347:21364" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21514:21531" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21628:21645" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21811:21828" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21932:21946" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="22224:22262" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="22825:22839" ph="..." />
           </folding>
         </state>
       </provider>
@@ -833,36 +813,27 @@
           <caret line="126" column="9" lean-forward="false" selection-start-line="126" selection-start-column="9" selection-end-line="126" selection-end-column="9" />
           <folding>
             <element signature="e#12159#15097#0#DjangoTemplate" expanded="false" />
-            <element signature="e#20626#23056#0#DjangoTemplate" expanded="false" />
-            <marker date="1560099816091" expanded="false" signature="12671:12691" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="12961:12981" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13205:13225" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13479:13499" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13811:13828" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="14240:14246" ph=" " />
-            <marker date="1560099816091" expanded="false" signature="14283:14300" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="15328:15345" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="16158:16175" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="16821:16838" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18174:18180" ph=" " />
-            <marker date="1560099816091" expanded="false" signature="18229:18242" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18354:18389" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18548:18563" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18701:18726" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="19202:19220" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="19511:20020" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20074:20585" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20882:20899" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20915:20932" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21052:21069" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21154:21171" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21338:21355" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21505:21522" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21619:21636" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21802:21819" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21923:21937" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="22215:22253" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="22816:22830" ph="..." />
+            <element signature="e#20635#23065#0#DjangoTemplate" expanded="false" />
+            <marker date="1560247206957" expanded="false" signature="12671:12691" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="12961:12981" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13205:13225" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13479:13499" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13811:13828" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="14240:14246" ph=" " />
+            <marker date="1560247206957" expanded="false" signature="14283:14300" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="19520:20029" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20083:20594" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20891:20908" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20924:20941" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21061:21078" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21163:21180" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21347:21364" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21514:21531" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21628:21645" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21811:21828" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21932:21946" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="22224:22262" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="22825:22839" ph="..." />
           </folding>
         </state>
       </provider>
@@ -929,36 +900,27 @@
           <caret line="51" column="100" lean-forward="false" selection-start-line="51" selection-start-column="100" selection-end-line="51" selection-end-column="100" />
           <folding>
             <element signature="e#12159#15097#0#DjangoTemplate" expanded="false" />
-            <element signature="e#20626#23056#0#DjangoTemplate" expanded="false" />
-            <marker date="1560099816091" expanded="false" signature="12671:12691" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="12961:12981" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13205:13225" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13479:13499" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13811:13828" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="14240:14246" ph=" " />
-            <marker date="1560099816091" expanded="false" signature="14283:14300" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="15328:15345" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="16158:16175" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="16821:16838" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18174:18180" ph=" " />
-            <marker date="1560099816091" expanded="false" signature="18229:18242" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18354:18389" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18548:18563" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18701:18726" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="19202:19220" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="19511:20020" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20074:20585" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20882:20899" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20915:20932" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21052:21069" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21154:21171" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21338:21355" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21505:21522" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21619:21636" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21802:21819" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21923:21937" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="22215:22253" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="22816:22830" ph="..." />
+            <element signature="e#20635#23065#0#DjangoTemplate" expanded="false" />
+            <marker date="1560247206957" expanded="false" signature="12671:12691" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="12961:12981" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13205:13225" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13479:13499" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13811:13828" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="14240:14246" ph=" " />
+            <marker date="1560247206957" expanded="false" signature="14283:14300" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="19520:20029" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20083:20594" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20891:20908" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20924:20941" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21061:21078" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21163:21180" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21347:21364" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21514:21531" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21628:21645" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21811:21828" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21932:21946" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="22224:22262" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="22825:22839" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1024,36 +986,27 @@
           <caret line="124" column="44" lean-forward="false" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="58" />
           <folding>
             <element signature="e#12159#15097#0#DjangoTemplate" expanded="false" />
-            <element signature="e#20626#23056#0#DjangoTemplate" expanded="false" />
-            <marker date="1560099816091" expanded="false" signature="12671:12691" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="12961:12981" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13205:13225" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13479:13499" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13811:13828" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="14240:14246" ph=" " />
-            <marker date="1560099816091" expanded="false" signature="14283:14300" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="15328:15345" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="16158:16175" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="16821:16838" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18174:18180" ph=" " />
-            <marker date="1560099816091" expanded="false" signature="18229:18242" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18354:18389" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18548:18563" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18701:18726" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="19202:19220" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="19511:20020" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20074:20585" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20882:20899" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20915:20932" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21052:21069" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21154:21171" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21338:21355" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21505:21522" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21619:21636" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21802:21819" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21923:21937" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="22215:22253" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="22816:22830" ph="..." />
+            <element signature="e#20635#23065#0#DjangoTemplate" expanded="false" />
+            <marker date="1560247206957" expanded="false" signature="12671:12691" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="12961:12981" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13205:13225" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13479:13499" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13811:13828" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="14240:14246" ph=" " />
+            <marker date="1560247206957" expanded="false" signature="14283:14300" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="19520:20029" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20083:20594" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20891:20908" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20924:20941" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21061:21078" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21163:21180" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21347:21364" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21514:21531" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21628:21645" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21811:21828" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21932:21946" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="22224:22262" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="22825:22839" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1088,7 +1041,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="495">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#24#52#0" expanded="true" />
@@ -1146,7 +1099,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cafeboard/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="90">
           <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -1156,7 +1109,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="255">
           <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="e#24#59#0" expanded="true" />
@@ -1167,40 +1120,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="389" column="28" lean-forward="true" selection-start-line="389" selection-start-column="28" selection-end-line="389" selection-end-column="28" />
+        <state relative-caret-position="358">
+          <caret line="355" column="174" lean-forward="true" selection-start-line="355" selection-start-column="174" selection-end-line="355" selection-end-column="174" />
           <folding>
             <element signature="e#12159#15097#0#DjangoTemplate" expanded="false" />
-            <element signature="e#20626#23056#0#DjangoTemplate" expanded="false" />
-            <marker date="1560099816091" expanded="false" signature="12671:12691" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="12961:12981" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13205:13225" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13479:13499" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="13811:13828" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="14240:14246" ph=" " />
-            <marker date="1560099816091" expanded="false" signature="14283:14300" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="15328:15345" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="16158:16175" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="16821:16838" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18174:18180" ph=" " />
-            <marker date="1560099816091" expanded="false" signature="18229:18242" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18354:18389" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18548:18563" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="18701:18726" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="19202:19220" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="19511:20020" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20074:20585" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20882:20899" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="20915:20932" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21052:21069" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21154:21171" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21338:21355" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21505:21522" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21619:21636" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21802:21819" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="21923:21937" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="22215:22253" ph="..." />
-            <marker date="1560099816091" expanded="false" signature="22816:22830" ph="..." />
+            <element signature="e#20635#23065#0#DjangoTemplate" expanded="false" />
+            <marker date="1560247206957" expanded="false" signature="12671:12691" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="12961:12981" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13205:13225" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13479:13499" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="13811:13828" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="14240:14246" ph=" " />
+            <marker date="1560247206957" expanded="false" signature="14283:14300" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="19520:20029" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20083:20594" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20891:20908" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="20924:20941" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21061:21078" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21163:21180" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21347:21364" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21514:21531" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21628:21645" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21811:21828" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="21932:21946" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="22224:22262" ph="..." />
+            <marker date="1560247206957" expanded="false" signature="22825:22839" ph="..." />
           </folding>
         </state>
       </provider>
