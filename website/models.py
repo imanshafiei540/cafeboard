@@ -53,3 +53,11 @@ class Event(models.Model):
     datetime = models.DateTimeField(default=False)
     image = models.ImageField(null=False)
     evand_frame = models.TextField(null=False)
+
+
+class EventDorna(models.Model):
+    title = models.CharField(max_length=250, null=False)
+    description = models.TextField(null=False)
+    datetime = models.DateTimeField(default=False)
+    image = models.ImageField(null=False)
+    evand_frame = models.TextField(null=False)

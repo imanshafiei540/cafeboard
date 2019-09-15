@@ -40,6 +40,8 @@ def index(request):
     counts = boardgames.count()
     events = Event.objects.all()
     events_list = []
+    dorna_events = EventDorna.objects.all()
+    dorna_events_list = []
     for event in events:
         jalali_date = jdatetime.date.fromgregorian(date=event.datetime.date())
         name_day = jalali_date.strftime("%a")
@@ -48,8 +50,17 @@ def index(request):
             {"date": {"day": name_day, "month_name": month_name, "jalali": jalali_date, "image": event.image.url},
              "event": event})
 
+    for event in dorna_events:
+        jalali_date = jdatetime.date.fromgregorian(date=event.datetime.date())
+        name_day = jalali_date.strftime("%a")
+        month_name = jalali_date.strftime("%b")
+        dorna_events_list.append(
+            {"date": {"day": name_day, "month_name": month_name, "jalali": jalali_date, "image": event.image.url},
+             "event": event})
+
     return render(request, 'index.html',
-                  {'boardgames_count': counts, "events": events_list, "tabletop_games": get_tabletop_games()})
+                  {'boardgames_count': counts, "events": events_list, "dorna_events": dorna_events_list,
+                   "tabletop_games": get_tabletop_games()})
 
 
 def getproducts(request):

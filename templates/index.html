@@ -235,13 +235,13 @@
                        role="tab"
                        aria-controls="nav-about" aria-selected="false">درباره کافه</a>
                 </li>
-                {% comment %}<li class="nav-item nav-fill">
-                    <a class=" nav-link" id="nav-club-tab" data-toggle="tab" href="#nav-club" role="tab"
-                       aria-controls="nav-club" aria-selected="true">باشگاه</a>
-                </li>{% endcomment %}
                 <li class="nav-item nav-fill">
                     <a class="nav-item nav-link" id="nav-event-tab" data-toggle="tab" href="#nav-event" role="tab"
                        aria-controls="nav-event" aria-selected="false">رویداد ربات</a>
+                </li>
+                <li class="nav-item nav-fill">
+                    <a class="nav-item nav-link" id="nav-dorna-tab" data-toggle="tab" href="#nav-dorna" role="tab"
+                       aria-controls="nav-event" aria-selected="false">رویداد درنا</a>
                 </li>
                 <li class="nav-item nav-fill">
                     <a class="nav-item nav-link" id="nav-games-tab" data-toggle="tab" href="#nav-games" role="tab"
@@ -384,6 +384,57 @@
                         {{ event.event.evand_frame | safe }}
                     </div>
                 {% endfor %}`
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-dorna" role="tabpanel" aria-labelledby="nav-event-tab">
+            <h2 class="tab-title">
+                بازی نقش‌آفرینی (Role Playing Game - RPG) چیه؟
+            </h2>
+            <div class="about-text">
+                <p>تا حالا شده توى ذهنتون يه شخصيت خيالى بسازين و بهش بال و پر بدين؟<br>دوست دارين توى دنياى خيالى
+                    ذهنتون چه شكلى باشين؟ دوست دارين يه اِلف دانا باشين كه توى جنگل زندگى ميكنه و با تير كمونش جلوی
+                    نيروى تاريكى وايميسه يا جاى يه دوارف باشين كه توى اعماق كوهستان هاى تاريك مشغول ساختن سلاح هاى
+                    افسانه اى هست و سنگ هاى گرون قيمت از دل كوه استخراج ميكنه؟ يا حتى يكى از گابلين هايى كه وسايل
+                    مكانيكى... وايسا ببينم!!<br>چرا نبايد بشه هر كدوم از اينا رو يه مدت زندگى كرد؟... آره به جاشون بشه
+                    زندگى كرد!<br>يه قهرمان، يه جادوگر خبيث، يه قاتل حرفه اى و يا يه عابد قدرتمند معبد، كه با نور مقدس
+                    در ارتباطه !!<br>تمام اين چيزا و خیلی بیشتر رو ميتونين توى بازيهاى نقش آفرينى تجربه كنين.<br>ميتونيد
+                    هر چقدر كه ميخوايد جاى اين شخصيتا توى يه دنياى جديد كه پر از جادو، قدرتهاى خارق العاده، موجودات عجيب
+                    و غريب، هيولاها و حتى پر از رمز و راز، معما يا ترس هست، زندگى كنيد، باهاشون به شهرت و قدرت برسين و
+                    همه مثل يه قهرمان بشناسنتون يا حتى ممكنه به خاطر خباثت و كارهاى شومتون معروف شده باشين! همش به اين
+                    بستگى داره كه شما كدوم راه ها و مسيرها رو انتخاب ميكنين و چجورى اين كاراكتر جديد رو زندگى
+                    ميكنيد.<br>دنيايى پر از ماجراجويى، كشف چيزاى جديد و تجربيات هيجان انگيز و موجوداتى كه تا حالا
+                    باهاشون رو به رو نشدين انتظارتون رو ميكشن !!<br>ممكنه از خيلياشون خوشتون بياد، باهاشون همراه بشيد،
+                    بهشون دل ببندين توى شهرهاى بزرگ و قشنگشون بمونيد و زندگى كنين... اما خيلى جاها هم ممكنه براتون
+                    خوشايند نباشه، رفتن به جنگل هاى تنگ و تاريك، عبور از باتلاق ها و جنگيدن با موجودات خبيث و حتى فرار
+                    كردن از دست بعضياشون...<br>شايد توى ماجراجويياتون سلاح هاى افسانه اى و وسايل به درد بخورى پيدا كنين.<br>هر
+                    دفعه كه توى اين دنيا پا ميذارين خودتون و گروهى كه باهاش همراه شدين مجهزتر و قدرتمندتر ميشه و بخش هاى
+                    بيشترى از اين فانتزی پر رمز و راز رو كشف ميكنيد.<br>خب حالا بريم سراغ اينكه چجورى اين شخصيت هاى
+                    خيالى رو ميشه به بقيه شناسوند و اصلاً دنيايى كه قراره توش بازى كنيم چه شكليه و كى توى اين دنيا قدرت
+                    رو به دست داره، قوانينش چى هست و...<br>توى بازيهاى نقش آفرينى يا همون Role Playing Games يه نفر هست
+                    به اسم Role Master كه قوانين مربوط به هر بازى رو از روى كتاباى اون بازى ميخونه و داستان كل بازى رو
+                    مينويسه و هر جلسه براتون چند تا ماموريت در نظر ميگيره و از طريق اشخاصى كه توى دنياى فانتزيمون
+                    ميبينينشون اين ماموريت ها به تيم شما داده ميشه و شما ميتونيد دنبال انجام دادن كارى كه بهتون محول شده
+                    بريد و رول مَستر براى اون ماموريت يه ميزان Experience يا در اصطلاح xp در نظر ميگيره و شما با انجام
+                    دادن ماموريتتون levelup ميشيد و قابليت هاى بيشترى به دست ميارين يا اينكه تصميم ميگيريد دنبال انجام
+                    دادن كاراى ديگه بريد؛ بازيكنا هميشه آزادن اونطورى كه ميخوان زندگى كنن ولی خب هر تصمیمی یه عواقبی هم
+                    داره!!<br>شخصيت هر بازيكن در ابتداى جلسه اول بر اساس علايق و نژادى كه اون فرد دوست داره به کمک رول
+                    مستر ساخته ميشه و برگه هاى شخصيت ها چاپ ميشن و در اختيار شما قرار ميگيرن و این شروع سفر شما در دنیای
+                    پر رمز و راز روایت هست.</p>
+                <h2 class="tab-title">
+                    در رویداد دُرنا چی کار میکنیم؟
+                </h2>
+                <p>در راستاى آشنايى با فضاى دنياى بازيهاى نقش آفرينى يا Role Playing، رويدادى براى شما دوستان عزيز در نظر گرفته شده.<br>شما با شركت در اين رويداد مى تونيد توى يك جلسه ٤ ساعته، سه شنبه ها از ساعت ١٦ تا ٢٠ يه داستان آماده رو با شخصيت هاى از پيش ساخته شده تحت عنوان يك One Shot بازى كنيد و لذت ببريد.<br>از اين طريق شما تجربه خوبى كسب ميكنيد تا در صورت تمايل براى شركت توى كمپين طولانى مدت ما، از قبل با فضاى RPG آشنا شده باشين.<br>هزينه شركت توى رويداد One Shot ما براى هر نفر مبلغ ۵۰,٠٠٠ تومان هست و توى هر تيم ٣ تا ۵ نفر ميتونن شركت كنن.</p>
+            </div>
+
+            <div style="border: none;" class="event-item card text-white">
+                {% for event in dorna_events %}
+                    <img style="border: 1px solid rgba(0,0,0,.125);" class="card-img"
+                         src="public{{ event.event.image.url }}"
+                         alt="Card image">
+                    <div style="margin-top: -30px;">
+                        {{ event.event.evand_frame | safe }}
+                    </div>
+                {% endfor %}
             </div>
         </div>
         {% comment %}<div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">
@@ -731,57 +782,18 @@
         </div>
     </div>
 </div>
-
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script>
     $(function () {
         $('#burger-modal').on('shown.bs.modal', function () {
             $('#burger-menu').trigger('focus')
         });
-        if (window.location.pathname === '/events') {
+        if (window.location.pathname === '/robot') {
             $('#nav-event-tab').trigger('click');
+        }
+        if (window.location.pathname === '/dorna') {
+            $('#nav-dorna-tab').trigger('click');
         }
     });
 </script>
-{% comment %}<script>
-    // When the user scrolls the page, execute myFunction
-    window.onscroll = function () {
-        myFunction()
-    };
-
-    // Get the header
-    var header = document.getElementById("myHeader");
-    var column = document.getElementById("bg_col");
-    var bet = document.getElementById("between");
-
-    // Get the offset position of the navbar
-    var sticky = header.offsetTop;
-
-
-    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-    function myFunction() {
-        if (window.pageYOffset > 65) {
-            header.classList.add("sticky");
-            column.classList.add("space-top");
-            header.classList.remove("space-in-bottom");
-            header.classList.add("space-little");
-        } else {
-            header.classList.remove("sticky");
-            column.classList.remove("space-top");
-            header.classList.add("space-in-bottom");
-            header.classList.remove("space-little");
-
-        }
-    }
-
-    if (window.location.pathname === '/events') {
-        $('#nav-event-tab').trigger('click');
-    }
-</script>{% endcomment %}
 </body>
 </html>
