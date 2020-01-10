@@ -61,3 +61,21 @@ class EventDorna(models.Model):
     datetime = models.DateTimeField(default=False)
     image = models.ImageField(null=False)
     evand_frame = models.TextField(null=False)
+
+
+class LeaderBoard(models.Model):
+    boardgame_name = models.CharField(max_length=1250, null=False)
+    robot_number = models.CharField(max_length=255, null=False)
+
+    def __str__(self):
+        return self.boardgame_name + " : " + self.robot_number
+
+
+class PersonToLeaderBoard(models.Model):
+    person_name = models.CharField(max_length=1250, null=False)
+    rank = models.IntegerField(null=False)
+    points = models.IntegerField(null=False)
+    leader_board = models.ForeignKey(to=LeaderBoard, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.person_name + " : " + str(self.rank) + " Point is : " + str(self.points)

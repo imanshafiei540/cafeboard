@@ -58,9 +58,28 @@ def index(request):
             {"date": {"day": name_day, "month_name": month_name, "jalali": jalali_date, "image": event.image.url},
              "event": event})
 
+    leads_dict = []
+    all_leads = LeaderBoard.objects.all()
+    for lead in all_leads:
+        ranks = PersonToLeaderBoard.objects.filter(leader_board=lead).order_by("rank")
+        rank_data = []
+        for rank in ranks:
+            rank_data.append({
+                "name": rank.person_name,
+                "points": rank.points,
+                "rank": rank.rank
+            })
+        lead_data = {
+            "boardgame": lead.boardgame_name,
+            "robot_number": lead.robot_number,
+            "ranks": rank_data
+        }
+        leads_dict.append(lead_data)
+
+    print(leads_dict)
     return render(request, 'index.html',
                   {'boardgames_count': counts, "events": events_list, "dorna_events": dorna_events_list,
-                   "tabletop_games": get_tabletop_games()})
+                   "tabletop_games": get_tabletop_games(), "lead_data": leads_dict})
 
 
 def getproducts(request):

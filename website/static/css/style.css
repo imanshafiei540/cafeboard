@@ -136,7 +136,7 @@ svg {
 
 }
 
-h2.tab-title {
+h2.tab-title, h3.tab-title {
     font-size: 1.4em;
     text-align: center;
     color: #E5C659;
